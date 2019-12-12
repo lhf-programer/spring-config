@@ -38,7 +38,6 @@ spring:
       max-request-size: 10Mb
 
 zuul:
-  set-content-length: true
   ignored-services: "*"
   servlet-path: /
   sensitive-headers:
