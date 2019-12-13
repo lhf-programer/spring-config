@@ -121,6 +121,9 @@ merge:
   aop:
     enabled: true
 
+resquest:
+  skip: /druid/**,/swagger-ui.html,/doc.html,/v2/**,/webjars/**,/swagger**/**,/,/csrf,/error
+
 swagger:
   # 配置请求路由
   zuul:
