@@ -112,7 +112,7 @@ hystrix:
 jwt:
   key: RSA
   token-header: Authorization
-  expire: 36
+  expire: 3600
   rsa-secret: xx1WET12^%3^(WE45
   user-service: cloud-admin
 
