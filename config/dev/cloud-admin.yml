@@ -106,7 +106,7 @@ auth:
   serviceId: cloud-auth
   user:
     token-header: Authorization
-    limit-expire: 1 # 一天过期
+    limit-expire: 1440 # 一天过期
   client:
     id: cloud-admin
     secret: 123456
