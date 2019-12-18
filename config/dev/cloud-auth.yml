@@ -112,7 +112,7 @@ hystrix:
 jwt:
   key: RSA
   token-header: Authorization
-  expire: 3600
+  expire: 60
   rsa-secret: xx1WET12^%3^(WE45
   user-service: cloud-admin
 
@@ -120,7 +120,7 @@ client:
   id: cloud-auth
   secret: 123456
   token-header: client-token
-  expire: 3600
+  expire: 60
   rsa-secret: x2318^^(*WRYQWR(QW&T
 
 # redis-cache 相关
