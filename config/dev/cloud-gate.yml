@@ -51,7 +51,6 @@ zuul:
       limit: 200
       refresh-interval: 60
       type:
-        - user
         - origin
         - url
 
@@ -71,9 +70,6 @@ zuul:
 
 auth:
   serviceId: cloud-auth
-  user:
-    token-header: Authorization
-    limit-expire: 1440 # 一天过期
   client:
     id: cloud-gate
     secret: 123456
@@ -105,8 +101,3 @@ feign:
       min-request-size: 2048
     response:
       enabled: true
-
-gate:
-  ignore:
-    # 逗号隔开，不允许有空格
-    startWith: /static,/auth/oauth/,/admin/v2/api-docs,/dict/v2/api-docs,/auth/v2/api-docs
