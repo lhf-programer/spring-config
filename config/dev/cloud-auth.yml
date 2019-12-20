@@ -1,3 +1,6 @@
+server:
+  port: 9777 #启动端口
+
 spring:
   application:
     name: cloud-auth
@@ -50,9 +53,6 @@ spring:
   sleuth:
     sampler:
       percentage: 1
-
-server:
-  port: 9777 #启动端口
 
 feign:
   httpclient:
@@ -109,8 +109,7 @@ hystrix:
           thread:
             timeoutInMilliseconds: 15000
 
-jwt:
-  key: RSA
+user:
   token-header: Authorization
   expire: 3600
   rsa-secret: xx1WET12^%3^(WE45
@@ -128,7 +127,7 @@ redis:
   aec-key: xx288&^^%$!@#4dc
   aec-iv: 0123456789abcdef
 
-resquest:
+request:
   skip: /token,/druid/**,/swagger-ui.html,/doc.html,/v2/**,/webjars/**,/swagger**/**,/,/csrf,/error,/authClient/**
 
 logging:

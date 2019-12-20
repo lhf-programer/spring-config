@@ -112,7 +112,7 @@ auth:
     secret: 123456
     token-header: client-token
 
-resquest:
+request:
   skip: /druid/**,/swagger-ui.html,/doc.html,/v2/**,/webjars/**,/swagger**/**,/,/csrf,/error
 
 swagger:
