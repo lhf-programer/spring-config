@@ -117,6 +117,10 @@ user:
 
 auth:
   serviceId: cloud-auth
+  client:
+    id: cloud-auth
+    secret: 123456
+    token-header: client-token
 
 client:
   id: cloud-auth
