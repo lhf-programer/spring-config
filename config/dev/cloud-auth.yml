@@ -111,6 +111,7 @@ hystrix:
 
 user:
   expire: 1
+  token-header: Authorization
   rsa-secret: xx1WET12^%3^(WE45
 
 client:
