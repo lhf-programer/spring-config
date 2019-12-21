@@ -115,6 +115,9 @@ user:
   rsa-secret: xx1WET12^%3^(WE45
   user-service: cloud-admin
 
+auth:
+  serviceId: cloud-auth
+
 client:
   id: cloud-auth
   secret: 123456
