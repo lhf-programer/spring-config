@@ -110,7 +110,6 @@ hystrix:
             timeoutInMilliseconds: 15000
 
 user:
-  expire: 1
   token-header: Authorization
   rsa-secret: xx1WET12^%3^(WE45
 
